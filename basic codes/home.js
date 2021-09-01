@@ -20,4 +20,10 @@ function greet(){
     console.log('hello'+' '+name);
 }
 
+function greet2(){
+    var name=prompt('what is your name?');
+    //string concatination
+    console.log('hello'+' '+name);
+}
+
 greet();
